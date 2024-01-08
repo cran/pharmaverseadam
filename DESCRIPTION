@@ -1,7 +1,7 @@
 Package: pharmaverseadam
 Type: Package
 Title: ADaM Test Data for the 'Pharmaverse' Family of Packages
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: c(
   person("Edoardo", "Mancini", email = "edoardo.mancini@roche.com", role = c("aut", "cre")),
   person("Kangjie", "Zhang", role = "aut"),
@@ -27,10 +27,10 @@ Depends: R (>= 3.5)
 Imports:
 Suggests: covr, devtools, diffdf, DT, knitr, lintr, methods, miniUI,
         pkgdown, rmarkdown, roxygen2, spelling, testthat (>= 3.0.0),
-        tibble, usethis,
+        tibble, usethis, metacore, metatools
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2023-09-20 07:04:26 UTC; mancinie
+Packaged: 2024-01-05 12:26:07 UTC; mancinie
 Author: Edoardo Mancini [aut, cre],
   Kangjie Zhang [aut],
   Stefan Bundfuss [aut],
@@ -39,4 +39,4 @@ Author: Edoardo Mancini [aut, cre],
   Zelos Zhu [aut]
 Maintainer: Edoardo Mancini <edoardo.mancini@roche.com>
 Repository: CRAN
-Date/Publication: 2023-09-20 13:30:02 UTC
+Date/Publication: 2024-01-08 13:30:05 UTC
