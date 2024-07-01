@@ -1,6 +1,6 @@
-#' Dataset adbcva_ophtha
+#' Best Corrected Visual Acuity Analysis
 #'
-#' adbcva_ophtha dataset
+#' An example of ADBCVA ADaM dataset for Ophthalmology studies
 #'
 #' @name adbcva_ophtha
 #' @docType data

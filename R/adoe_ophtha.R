@@ -1,6 +1,6 @@
-#' Dataset adoe_ophtha
+#' Exam Analysis for Ophthalmology
 #'
-#' adoe_ophtha dataset
+#' An example of ADOE dataset for Ophthalmology studies
 #'
 #' @name adoe_ophtha
 #' @docType data

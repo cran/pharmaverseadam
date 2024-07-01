@@ -1,6 +1,6 @@
-#' Dataset adcm
+#' Concomitant Medications Analysis
 #'
-#' adcm dataset
+#' An example of ADCM ADaM dataset
 #'
 #' @name adcm
 #' @docType data

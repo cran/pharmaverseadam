@@ -3,7 +3,7 @@
 \docType{data}
 \name{adeg}
 \alias{adeg}
-\title{Dataset adeg}
+\title{Electrocardiogram Tests Analysis}
 \format{
 A data frame with 105 columns:
 \describe{
@@ -121,7 +121,7 @@ Generated from admiral package (template ad_adeg.R).
 adeg
 }
 \description{
-adeg dataset
+An example of ADEG ADaM dataset
 }
 \examples{
 data("adeg")

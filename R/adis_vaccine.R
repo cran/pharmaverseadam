@@ -1,6 +1,6 @@
-#' Dataset adis_vaccine
+#' Immunogenicity Specimen Assessments
 #'
-#' adis_vaccine dataset
+#' An example of ADIS dataset for Vaccine studies
 #'
 #' @name adis_vaccine
 #' @docType data

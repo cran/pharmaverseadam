@@ -95,6 +95,7 @@ FATESTCD
 FN
 Grp
 Hx
+IG
 INVID
 INVNAM
 ISBLFL
@@ -129,6 +130,7 @@ PPROTFL
 PPSRFL
 Pharmacodynamic
 Pharmacokinetic
+pharamverseadam
 Pharmaverse
 Prd
 Pre
@@ -194,3 +196,5 @@ pharmaversesdtm
 Immunogenicity
 sero
 seropositivity
+Hy
+Hy's

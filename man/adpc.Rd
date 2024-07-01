@@ -3,9 +3,9 @@
 \docType{data}
 \name{adpc}
 \alias{adpc}
-\title{Dataset adpc}
+\title{Pharmacokinetic Concentrations}
 \format{
-A data frame with 122 columns:
+A data frame with 123 columns:
 \describe{
 \item{ STUDYID }{Study Identifier}
 \item{ USUBJID }{Unique Subject Identifier}
@@ -52,6 +52,7 @@ A data frame with 122 columns:
 \item{ PCRFTDT }{Reference Date of Dose for Analyte}
 \item{ PCRFTTM }{Reference Time of Dose for Analyte}
 \item{ NRRLT }{Nominal Rel. Time from Ref. Dose}
+\item{ PARCAT1 }{Parameter Category 1}
 \item{ ATPTN }{Analysis Timepoint (N)}
 \item{ ATPT }{Analysis Timepoint}
 \item{ ATPTREF }{Analysis Timepoint Reference}
@@ -138,7 +139,7 @@ Generated from admiral package (template ad_adpc.R).
 adpc
 }
 \description{
-adpc dataset
+An example of ADPC dataset
 }
 \examples{
 data("adpc")

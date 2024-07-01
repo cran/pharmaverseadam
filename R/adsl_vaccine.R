@@ -1,6 +1,6 @@
-#' Dataset adsl_vaccine
+#' Subject Level Analysis for Vaccine
 #'
-#' adsl_vaccine dataset
+#' An example of ADSL ADaM dataset for Vaccine studies
 #'
 #' @name adsl_vaccine
 #' @docType data

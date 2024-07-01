@@ -1,10 +1,10 @@
-#' Dataset adpc
+#' Pharmacokinetic Concentrations
 #'
-#' adpc dataset
+#' An example of ADPC dataset
 #'
 #' @name adpc
 #' @docType data
-#' @format A data frame with 122 columns:
+#' @format A data frame with 123 columns:
 #'   \describe{
 #'     \item{ STUDYID }{Study Identifier}
 #'     \item{ USUBJID }{Unique Subject Identifier}
@@ -51,6 +51,7 @@
 #'     \item{ PCRFTDT }{Reference Date of Dose for Analyte}
 #'     \item{ PCRFTTM }{Reference Time of Dose for Analyte}
 #'     \item{ NRRLT }{Nominal Rel. Time from Ref. Dose}
+#'     \item{ PARCAT1 }{Parameter Category 1}
 #'     \item{ ATPTN }{Analysis Timepoint (N)}
 #'     \item{ ATPT }{Analysis Timepoint}
 #'     \item{ ATPTREF }{Analysis Timepoint Reference}

@@ -1,6 +1,6 @@
-#' Dataset adex
+#' Exposure Analysis
 #'
-#' adex dataset
+#' An example of ADEX ADaM dataset
 #'
 #' @name adex
 #' @docType data

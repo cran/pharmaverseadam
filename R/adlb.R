@@ -1,6 +1,6 @@
-#' Dataset adlb
+#' Laboratory Analysis
 #'
-#' adlb dataset
+#' An example of ADLB ADaM dataset
 #'
 #' @name adlb
 #' @docType data
