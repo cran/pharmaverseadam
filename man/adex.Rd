@@ -3,7 +3,7 @@
 \docType{data}
 \name{adex}
 \alias{adex}
-\title{adex}
+\title{Exposure Analysis}
 \format{
 A data frame with 92 columns:
 \describe{
@@ -81,15 +81,15 @@ A data frame with 92 columns:
 \item{ SCRFDT }{Screen Failure Date}
 \item{ EOSDT }{End of Study Date}
 \item{ EOSSTT }{End of Study Status}
-\item{ FRVDT }{Final Retrievel Visit Date}
+\item{ FRVDT }{Final Retrieval Visit Date}
 \item{ RANDDT }{Date of Randomization}
 \item{ DTHDT }{Date of Death}
-\item{ DTHDTF }{undocumented field}
+\item{ DTHDTF }{Date of Death Imputation Flag}
 \item{ DTHADY }{Relative Day of Death}
 \item{ LDDTHELD }{Elapsed Days from Last Dose to Death}
-\item{ DTHCAUS }{undocumented field}
-\item{ DTHDOM }{undocumented field}
-\item{ DTHCGR1 }{undocumented field}
+\item{ DTHCAUS }{Cause of Death}
+\item{ DTHDOM }{Domain for Date of Death Collection}
+\item{ DTHCGR1 }{Cause of Death Reason 1}
 \item{ LSTALVDT }{Date Last Known Alive}
 \item{ SAFFL }{Safety Population Flag}
 \item{ RACEGR1 }{Pooled Race Group 1}
@@ -109,6 +109,30 @@ adex
 }
 \description{
 Exposure Analysis
+}
+\details{
+Contains a set of 19 unique Parameter Codes and Parameters: \tabular{ll}{
+\strong{PARAMCD} \tab \strong{PARAM} \cr
+ADJ     \tab Dose adjusted during constant dosing interval             \cr
+ADJAE   \tab Dose adjusted  due to AE during constant dosing interval  \cr
+AVDDSE  \tab Average daily dose administered (mg/mg)                   \cr
+DOSE    \tab Dose administered during constant dosing interval (mg)    \cr
+DURD    \tab Study drug duration during constant dosing interval (days)\cr
+PADJ    \tab Dose adjusted during W2-W24                               \cr
+PADJAE  \tab Dose adjusted  in W2-W24 due to AE                        \cr
+PAVDDSE \tab Average daily dose administered in W2-W24 (mg)            \cr
+PDOSE   \tab Total dose administered in W2-W2 (mg)4                    \cr
+PDOSINT \tab W2-24 dose intensity (\%)                                  \cr
+PDURD   \tab Overall duration in W2-W24 (days)                         \cr
+PLDOSE  \tab Planned dose during constant dosing interval (mg)         \cr
+PPDOSE  \tab Total planned dose in W2-W24 (mg)                         \cr
+TADJ    \tab Dose adjusted during study                                \cr
+TADJAE  \tab Dose adjusted during study due to AE                      \cr
+TDOSE   \tab Total dose administered (mg)                              \cr
+TDOSINT \tab Overall dose intensity (\%)                                \cr
+TDURD   \tab Overall duration (days)                                   \cr
+TPDOSE  \tab Total planned dose (mg)
+}
 }
 \examples{
 data("adex")

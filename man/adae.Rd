@@ -3,9 +3,9 @@
 \docType{data}
 \name{adae}
 \alias{adae}
-\title{adae}
+\title{Adverse Events Analysis}
 \format{
-A data frame with 105 columns:
+A data frame with 107 columns:
 \describe{
 \item{ STUDYID }{Study Identifier}
 \item{ DOMAIN }{Domain Abbreviation}
@@ -59,6 +59,8 @@ A data frame with 105 columns:
 \item{ ADURN }{Analysis Duration (N)}
 \item{ ADURU }{Analysis Duration Units}
 \item{ LDOSEDTM }{End Date/Time of Last Dose}
+\item{ DOSEON }{Treatment Dose}
+\item{ DOSEU }{Treatment Dose Unit}
 \item{ ASEV }{Analysis Severity/Intensity}
 \item{ AREL }{Analysis Causality}
 \item{ TRTEMFL }{Treatment Emergent Analysis Flag}
@@ -95,14 +97,14 @@ A data frame with 105 columns:
 \item{ TRTDURD }{Total Treatment Duration (Days)}
 \item{ SCRFDT }{Screen Failure Date}
 \item{ EOSSTT }{End of Study Status}
-\item{ FRVDT }{Final Retrievel Visit Date}
+\item{ FRVDT }{Final Retrieval Visit Date}
 \item{ RANDDT }{Date of Randomization}
-\item{ DTHDTF }{undocumented field}
+\item{ DTHDTF }{Date of Death Imputation Flag}
 \item{ DTHADY }{Relative Day of Death}
 \item{ LDDTHELD }{Elapsed Days from Last Dose to Death}
-\item{ DTHCAUS }{undocumented field}
-\item{ DTHDOM }{undocumented field}
-\item{ DTHCGR1 }{undocumented field}
+\item{ DTHCAUS }{Cause of Death}
+\item{ DTHDOM }{Domain for Date of Death Collection}
+\item{ DTHCGR1 }{Cause of Death Reason 1}
 \item{ LSTALVDT }{Date Last Known Alive}
 \item{ SAFFL }{Safety Population Flag}
 \item{ RACEGR1 }{Pooled Race Group 1}

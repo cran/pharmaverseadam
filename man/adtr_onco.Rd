@@ -3,7 +3,7 @@
 \docType{data}
 \name{adtr_onco}
 \alias{adtr_onco}
-\title{adtr_onco}
+\title{Tumor Results Analysis for Oncology}
 \format{
 A data frame with 99 columns:
 \describe{
@@ -89,7 +89,7 @@ A data frame with 99 columns:
 \item{ SCRFDT }{Screen Failure Date}
 \item{ EOSDT }{End of Study Date}
 \item{ EOSSTT }{End of Study Status}
-\item{ FRVDT }{Final Retrievel Visit Date}
+\item{ FRVDT }{Final Retrieval Visit Date}
 \item{ DTHDT }{Date of Death}
 \item{ DTHDTF }{Date of Death Imputation Flag}
 \item{ DTHADY }{Relative Day of Death}
@@ -116,6 +116,22 @@ adtr_onco
 }
 \description{
 Tumor Results Analysis for Oncology
+}
+\details{
+Contains a set of 11 unique Parameter Codes and Parameters: \tabular{ll}{
+\strong{PARAMCD} \tab \strong{PARAM} \cr
+LDIAM1  \tab Target Lesion 1 Analysis Diameter              \cr
+LDIAM2  \tab Target Lesion 2 Analysis Diameter              \cr
+LDIAM3  \tab Target Lesion 3 Analysis Diameter              \cr
+LDIAM4  \tab Target Lesion 4 Analysis Diameter              \cr
+LDIAM5  \tab Target Lesion 5 Analysis Diameter              \cr
+NLDIAM1 \tab Target Lesion 1 Analysis Perpendicular         \cr
+NLDIAM2 \tab Target Lesion 2 Analysis Perpendicular         \cr
+NLDIAM3 \tab Target Lesion 3 Analysis Perpendicular         \cr
+NLDIAM4 \tab Target Lesion 4 Analysis Perpendicular         \cr
+NLDIAM5 \tab Target Lesion 5 Analysis Perpendicular         \cr
+SDIAM   \tab Target Lesions Sum of Diameters by Investigator
+}
 }
 \examples{
 data("adtr_onco")

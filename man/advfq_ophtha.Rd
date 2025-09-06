@@ -3,7 +3,7 @@
 \docType{data}
 \name{advfq_ophtha}
 \alias{advfq_ophtha}
-\title{advfq_ophtha}
+\title{Visual Function Questionnaire Analysis}
 \format{
 A data frame with 89 columns:
 \describe{
@@ -78,15 +78,15 @@ A data frame with 89 columns:
 \item{ SCRFDT }{Screen Failure Date}
 \item{ EOSDT }{End of Study Date}
 \item{ EOSSTT }{End of Study Status}
-\item{ FRVDT }{Final Retrievel Visit Date}
+\item{ FRVDT }{Final Retrieval Visit Date}
 \item{ RANDDT }{Date of Randomization}
 \item{ DTHDT }{Date of Death}
-\item{ DTHDTF }{undocumented field}
+\item{ DTHDTF }{Date of Death Imputation Flag}
 \item{ DTHADY }{Relative Day of Death}
 \item{ LDDTHELD }{Elapsed Days from Last Dose to Death}
-\item{ DTHCAUS }{undocumented field}
-\item{ DTHDOM }{undocumented field}
-\item{ DTHCGR1 }{undocumented field}
+\item{ DTHCAUS }{Cause of Death}
+\item{ DTHDOM }{Domain for Date of Death Collection}
+\item{ DTHCGR1 }{Cause of Death Reason 1}
 \item{ LSTALVDT }{Date Last Known Alive}
 \item{ SAFFL }{Safety Population Flag}
 \item{ RACEGR1 }{Pooled Race Group 1}
@@ -106,6 +106,22 @@ advfq_ophtha
 }
 \description{
 Visual Function Questionnaire Analysis
+}
+\details{
+Contains a set of 11 unique Parameter Codes and Parameters: \tabular{ll}{
+\strong{PARAMCD} \tab \strong{PARAM} \cr
+QBCSCORE \tab Composite Score        \cr
+QR01     \tab Recoded Item - 01      \cr
+QR02     \tab Recoded Item - 02      \cr
+QR03     \tab Recoded Item - 03      \cr
+QR04     \tab Recoded Item - 04      \cr
+QSG01    \tab General Score 01       \cr
+QSG02    \tab General Score 02       \cr
+VFQ1     \tab Overall Health         \cr
+VFQ2     \tab Eyesight in Both Eyes  \cr
+VFQ3     \tab Worry About Eyesight   \cr
+VFQ4     \tab Pain in and Around Eyes
+}
 }
 \examples{
 data("advfq_ophtha")

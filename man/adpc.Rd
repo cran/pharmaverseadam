@@ -3,7 +3,7 @@
 \docType{data}
 \name{adpc}
 \alias{adpc}
-\title{adpc}
+\title{Pharmacokinetic Concentrations}
 \format{
 A data frame with 127 columns:
 \describe{
@@ -56,7 +56,6 @@ A data frame with 127 columns:
 \item{ ATPTN }{Analysis Timepoint (N)}
 \item{ ATPT }{Analysis Timepoint}
 \item{ ATPTREF }{Analysis Timepoint Reference}
-\item{ ABLFL }{Baseline Record Flag}
 \item{ BASETYPE }{Baseline Type}
 \item{ DOSEA }{Actual Treatment Dose}
 \item{ DOSEP }{Planned Treatment Dose}
@@ -72,6 +71,7 @@ A data frame with 127 columns:
 \item{ SRCVAR }{Source Variable}
 \item{ SRCSEQ }{Source Sequence Number}
 \item{ DTYPE }{Derivation Type}
+\item{ ABLFL }{Baseline Record Flag}
 \item{ MRRLT }{Modified Rel. Time from Ref. Dose}
 \item{ ANL01FL }{Analysis Flag 01}
 \item{ ANL02FL }{Analysis Flag 02}
@@ -116,15 +116,15 @@ A data frame with 127 columns:
 \item{ SCRFDT }{Screen Failure Date}
 \item{ EOSDT }{End of Study Date}
 \item{ EOSSTT }{End of Study Status}
-\item{ FRVDT }{Final Retrievel Visit Date}
+\item{ FRVDT }{Final Retrieval Visit Date}
 \item{ RANDDT }{Date of Randomization}
 \item{ DTHDT }{Date of Death}
-\item{ DTHDTF }{undocumented field}
+\item{ DTHDTF }{Date of Death Imputation Flag}
 \item{ DTHADY }{Relative Day of Death}
 \item{ LDDTHELD }{Elapsed Days from Last Dose to Death}
-\item{ DTHCAUS }{undocumented field}
-\item{ DTHDOM }{undocumented field}
-\item{ DTHCGR1 }{undocumented field}
+\item{ DTHCAUS }{Cause of Death}
+\item{ DTHDOM }{Domain for Date of Death Collection}
+\item{ DTHCGR1 }{Cause of Death Reason 1}
 \item{ LSTALVDT }{Date Last Known Alive}
 \item{ SAFFL }{Safety Population Flag}
 \item{ RACEGR1 }{Pooled Race Group 1}
@@ -144,6 +144,13 @@ adpc
 }
 \description{
 Pharmacokinetic Concentrations
+}
+\details{
+Contains a set of 2 unique Parameter Codes and Parameters: \tabular{ll}{
+\strong{PARAMCD} \tab \strong{PARAM} \cr
+DOSE \tab Xanomeline Patch Dose                      \cr
+XAN  \tab Pharmacokinetic concentration of Xanomeline
+}
 }
 \examples{
 data("adpc")

@@ -3,7 +3,7 @@
 \docType{data}
 \name{advs}
 \alias{advs}
-\title{advs}
+\title{Vital Signs Analysis}
 \format{
 A data frame with 105 columns:
 \describe{
@@ -94,15 +94,15 @@ A data frame with 105 columns:
 \item{ SCRFDT }{Screen Failure Date}
 \item{ EOSDT }{End of Study Date}
 \item{ EOSSTT }{End of Study Status}
-\item{ FRVDT }{Final Retrievel Visit Date}
+\item{ FRVDT }{Final Retrieval Visit Date}
 \item{ RANDDT }{Date of Randomization}
 \item{ DTHDT }{Date of Death}
-\item{ DTHDTF }{undocumented field}
+\item{ DTHDTF }{Date of Death Imputation Flag}
 \item{ DTHADY }{Relative Day of Death}
 \item{ LDDTHELD }{Elapsed Days from Last Dose to Death}
-\item{ DTHCAUS }{undocumented field}
-\item{ DTHDOM }{undocumented field}
-\item{ DTHCGR1 }{undocumented field}
+\item{ DTHCAUS }{Cause of Death}
+\item{ DTHDOM }{Domain for Date of Death Collection}
+\item{ DTHCGR1 }{Cause of Death Reason 1}
 \item{ LSTALVDT }{Date Last Known Alive}
 \item{ SAFFL }{Safety Population Flag}
 \item{ RACEGR1 }{Pooled Race Group 1}
@@ -122,6 +122,20 @@ advs
 }
 \description{
 Vital Signs Analysis
+}
+\details{
+Contains a set of 9 unique Parameter Codes and Parameters: \tabular{ll}{
+\strong{PARAMCD} \tab \strong{PARAM} \cr
+BMI    \tab Body Mass Index(kg/m^2)        \cr
+BSA    \tab Body Surface Area(m^2)         \cr
+DIABP  \tab Diastolic Blood Pressure (mmHg)\cr
+HEIGHT \tab Height (cm)                    \cr
+MAP    \tab Mean Arterial Pressure (mmHg)  \cr
+PULSE  \tab Pulse Rate (beats/min)         \cr
+SYSBP  \tab Systolic Blood Pressure (mmHg) \cr
+TEMP   \tab Temperature (C)                \cr
+WEIGHT \tab Weight (kg)
+}
 }
 \examples{
 data("advs")
