@@ -4,23 +4,24 @@
 #'
 #' @name adlbhy
 #' @title Analysis of Lab Hy's Law
+#' @keywords dataset generic
 #' @docType data
 #' @format A data frame with 14 columns:
 #'   \describe{
 #'     \item{ STUDYID }{Study Identifier}
 #'     \item{ USUBJID }{Unique Subject Identifier}
 #'     \item{ TRT01A }{Actual Treatment for Period 01}
-#'     \item{ PARAMCD }{Parameter Code}
-#'     \item{ PARAM }{Parameter}
-#'     \item{ LBSEQ }{Sequence Number}
 #'     \item{ ADT }{Analysis Date}
-#'     \item{ AVISIT }{Analysis Visit}
 #'     \item{ ADY }{Analysis Relative Day}
+#'     \item{ AVISIT }{Analysis Visit}
+#'     \item{ PARAM }{Parameter}
+#'     \item{ PARAMCD }{Parameter Code}
 #'     \item{ AVAL }{Analysis Value}
-#'     \item{ ANRHI }{Analysis Normal Range Upper Limit}
+#'     \item{ AVALC }{Analysis Value (C)}
 #'     \item{ CRIT1 }{Analysis Criterion 1}
 #'     \item{ CRIT1FL }{Criterion 1 Evaluation Result Flag}
-#'     \item{ AVALC }{Analysis Value (C)}
+#'     \item{ ANRHI }{Analysis Normal Range Upper Limit}
+#'     \item{ LBSEQ }{Sequence Number}
 #'   }
 #' @details Contains a set of 4 unique Parameter Codes and Parameters: \tabular{ll}{
 #'   \strong{PARAMCD} \tab \strong{PARAM} \cr

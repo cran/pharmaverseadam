@@ -1,3 +1,35 @@
+# pharmaverseadam 1.3.0
+
+## New features
+
+  - Added `ADAPET`, `ADTPET` and `ADNV` from `{admiralneuro}` using package version 0.2.1. (#138)
+  
+  - Added new `{admiral}` dataset for Anti-Drug Antibody data `ADAB`. (#143)  
+
+## Documentation
+
+  - Refreshed `{pharmaverseadam}` datasets using `{admiral}` 1.4.1, `{admiralonco}` 1.4.0, `{admiralophtha}` 1.4.0, `{admiralvaccine}` 0.6.0, `{admiralpeds}` 0.3.0,
+  `{admiralmetabolic}` 0.3.0, `{pharmaversesdtm}` 1.4.0. (#147)
+  
+  - The reference page was updated to categorize datasets by therapeutic areas. (#137)
+  
+  - The dataset variables and specifications were ordered and grouped according to ADaM IG standards, and the reference page reflected this updated structure. (#128)
+  
+  - Added a new vignette "Explore ADaM Datasets" to preview all datasets included in the package. (#102)
+
+<details>
+<summary>Developer Notes</summary>
+
+- Updated `{lintr}` configurations to use central configurations from `{admiraldev}`. (#133)
+
+- Generated different sites for the development and released versions of the package. (#139)
+
+- Updated `create_adams_data.R` for cross-platform functionality. (#145)
+
+- Added downloads badge to the website. (#151)
+
+</details>
+
 # pharmaverseadam 1.2.0
 
 ## New features
