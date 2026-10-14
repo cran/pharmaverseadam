@@ -1,15 +1,39 @@
+# pharmaverseadam 1.4.0
+
+## Documentation
+
+  - Refreshed `{pharmaverseadam}` datasets using `{admiral}` 1.5.0, `{admiralonco}` 1.5.0, `{admiralophtha}` 1.5.0, `{admiralvaccine}` 0.6.0, `{admiralpeds}` 0.4.0, `{admiralmetabolic}` 0.3.0, `{pharmaversesdtm}` 1.5.0. (#168)
+
+## New features
+
+  - Added `ADLB`, from `{admiralneuro}` using package version 0.3.0. (#159)
+
+<details>  
+<summary>Developer Notes</summary>  
+
+- Updated title of the vignette Explore ADaM datasets. (#156)
+
+- Added Dark Mode and icon tooltips to the website, and implemented a new PR website workflow, accessible by adding the "[create website]" keyword to PR titles. (#158)
+
+- Updated the links in the PR template, and up versioned to `{roxygen}` 8.0.0. (#160)
+
+- Clickable links to personal websites or GitHub profiles were added in the home page sidebar for every `{pharmaverseadam}` author. (#162)
+
+- Up-versioned `{admiraldev}` to 1.5.0, as the custom `{admiral}` roclets (i.e., `roxygen_*()` functions) have now been moved to `{admiraldev}`. (#163)
+
+</details>
+
 # pharmaverseadam 1.3.0
 
 ## New features
 
   - Added `ADAPET`, `ADTPET` and `ADNV` from `{admiralneuro}` using package version 0.2.1. (#138)
   
-  - Added new `{admiral}` dataset for Anti-Drug Antibody data `ADAB`. (#143)  
+  - Added new `{admiral}` dataset for Anti-Drug Antibody data `ADAB`. (#143)
 
 ## Documentation
 
-  - Refreshed `{pharmaverseadam}` datasets using `{admiral}` 1.4.1, `{admiralonco}` 1.4.0, `{admiralophtha}` 1.4.0, `{admiralvaccine}` 0.6.0, `{admiralpeds}` 0.3.0,
-  `{admiralmetabolic}` 0.3.0, `{pharmaversesdtm}` 1.4.0. (#147)
+  - Refreshed `{pharmaverseadam}` datasets using `{admiral}` 1.4.1, `{admiralonco}` 1.4.0, `{admiralophtha}` 1.4.0, `{admiralvaccine}` 0.6.0, `{admiralpeds}` 0.3.0, `{admiralmetabolic}` 0.3.0, `{pharmaversesdtm}` 1.4.0. (#147)
   
   - The reference page was updated to categorize datasets by therapeutic areas. (#137)
   
